@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!-- To use the 2 way data binding I must add the directive app-->
+<html lang="en" ng-app>
+	<!-- Remember angular controls the place where you ng-app placed in the tag -->
+	<head>
+		<title>Data Binding</title>
+		<link href="content/css/styles.css" rel="stylesheet" text="text/css" />
+		<script src="app\lib\angular.min.js"></script>
+	</head>
+<body>
+	<p>2526 56837 27736259<p>
+	<!-- Anything I place in the text book will be stored as the value for favLang in this case it would 
+	 be Pascal because I stored Pascal in favLang -->
+	<input type="text" ng-model="favLang" placeholder="Enter Your Fav Programming Language"/>
+	<!-- Outputing it as an expression -->
+	<p> Your fav plang is: {{favLang}}</p>
+</body>
+</html>
+

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<!-- To use the 2 way data binding I must add the directive app-->
+<html lang="en" ng-app>
+	<!-- Remember angular controls the place where you ng-app placed in the tag -->
+	<head>
+		<title>Data Binding</title>
+		<link href="content/css/styles.css" rel="stylesheet" text="text/css" />
+		<script src="app\lib\angular.min.js"></script>
+	</head>
+<body>
+	<input type="text" ng-model="favLang" placeholder="Enter Your Fav Programming Language" />
+	<p>Your fav programming language is: {{favLang}}</p>
+</body>
+</html>
+
