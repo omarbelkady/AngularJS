@@ -130,8 +130,6 @@ ng new nameofangapp
 ├── tsconfig.app.json
 
 ├── tsconfig.json
-
-├── tsconfig.spec.json
 ```
 
 
@@ -159,6 +157,3 @@ ng generate component navbar
 - Failure to do so will require you to FIRST declare your Service THEEEN your Component
     - IF you fail to follow this order it results in:
         - RUNTIME NULL REFERENCE ERROR
-
-
-### Handling Exceptions in Angular
