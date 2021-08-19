@@ -65,41 +65,74 @@ ng new nameofangapp
 
 ### Project Structure
 
+```
 ├── README.md
+
 ├── /node_modules
+
 ├── package.json
+
 ├── .gitignore ------- list the files you do not want git to track here
+
 ├── public
+
 │   ├── favicon.ico
+
 │   ├── index.html ------ to bootstrap your react app import it here
+
 │   └── manifest.json
+
 └── /src
+
     └── /myapp
+
         ├── myapp-routing.module.ts
+
         ├── myapp.component.css
+
         ├── myapp-component.html
+
         ├── myapp.component.ts
+
         ├── myapp.module.ts
+
 	├── /assets
+
 	├── /environments
+
 	├── favicon.ico
+
 	├── index.html
+
 	├── main.ts
+
 	├── polyfills.ts
+
     ├── styles.css
+
     ├── test.ts
 ├── .browserslistrc
-├── .editorconfig
-├── .gitignore
-├── angular.json
-├── karma.conf.js
-├── package-lock.json
-├── package.json
-├── README.md
-├── tsconfig.app.json
-├── tsconfig.json
-├── tsconfig.spec.json
 
+├── .editorconfig
+
+├── .gitignore
+
+├── angular.json
+
+├── karma.conf.js
+
+├── package-lock.json
+
+├── package.json
+
+├── README.md
+
+├── tsconfig.app.json
+
+├── tsconfig.json
+
+├── tsconfig.spec.json
+```
 
 
 
@@ -118,6 +151,7 @@ ng generate component navbar
 
 - @Injectable Decorator tells Angular that this specified Service Class should be visible to everyone
     - within your Application.
+- 
 
 ### Good Practices 
 
@@ -125,3 +159,6 @@ ng generate component navbar
 - Failure to do so will require you to FIRST declare your Service THEEEN your Component
     - IF you fail to follow this order it results in:
         - RUNTIME NULL REFERENCE ERROR
+
+
+### Handling Exceptions in Angular
