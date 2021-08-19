@@ -64,7 +64,7 @@ ng new nameofangapp
 
 
 ### Project Structure
-
+```
 ├── README.md
 ├── /node_modules
 ├── package.json
@@ -98,8 +98,8 @@ ng new nameofangapp
 ├── README.md
 ├── tsconfig.app.json
 ├── tsconfig.json
-├── tsconfig.spec.json
-
+└── tsconfig.spec.json
+```
 
 
 
