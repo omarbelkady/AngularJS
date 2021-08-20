@@ -147,7 +147,7 @@ ng generate component navbar
 
 ### Dependency Injection In Angular
 
-- @Injectable Decorator tells Angular that this specified Service Class should be visible to everyone
+- @ Injectable Decorator tells Angular that this specified Service Class should be visible to everyone
     - within your Application.
 - Since Components consume services 
 - I need Dependency Injection to give my component all the power my service has for functionality purposes
