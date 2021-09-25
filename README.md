@@ -67,69 +67,35 @@ ng new nameofangapp
 
 ```
 ├── README.md
-
-├── /node_modules
-
-├── package.json
-
-├── .gitignore ------- list the files you do not want git to track here
-
-├── public
-
-│   ├── favicon.ico
-
-│   ├── index.html ------ to bootstrap your react app import it here
-
-│   └── manifest.json
-
+├── /node_modules ======> 3rd party libs are installed here that we use in my app
 └── /src
-
-    └── /myapp
-
-        ├── myapp-routing.module.ts
-
-        ├── myapp.component.css
-
-        ├── myapp-component.html
-
-        ├── myapp.component.ts
-
-        ├── myapp.module.ts
-
-	├── /assets
-
-	├── /environments
-
-	├── favicon.ico
-
-	├── index.html
-
-	├── main.ts
-
-	├── polyfills.ts
-
-    ├── styles.css
-
-    ├── test.ts
-├── .browserslistrc
-
-├── .editorconfig
-
-├── .gitignore
-
-├── angular.json
-
-├── karma.conf.js
-
-├── package-lock.json
-
-├── package.json
-
-├── README.md
-
+    └── /myapp ======> All the files necessary to generate the UI of my app are here
+    |   ├── myapp-routing.module.ts
+    |   ├── myapp.component.css ======> CSS Stylesheet for the root component
+    |   ├── myapp-component.html ======> Create the html file for me
+    |   ├── myapp.component.spec.ts ======> Unit tests for the root component
+    |   ├── myapp.component.ts ======> Definition of module and properties
+    |   └── myapp.module.ts  ======> Root Component i.e. App.js in ReactJS
+	├── /assets ======> Static files i.e. images, fonts, etc.
+	├── /environments ======> configuration for development and production environments
+    |   ├── environment.prod.ts
+    |   └── environment.ts
+	├── favicon.ico 
+	├── index.html ======> Bootstraps my app
+	├── main.ts  ======> Main entry point of your Angular app tells Angular to start my app
+	├── polyfills.ts 
+    ├── styles.css  ======> Global styling
+    └── test.ts  ======> Unit Tests
+├── angular.json ======> Defines structure to my angular application
+├── karma.conf.js ======> Test runner file
+├── package-lock.json ======> Gives Angular Details in regards to the version for all the packages in node_modules dir
+├── package.json ======> Configures all your npm package dependencies
+├── README.md ======> Documentation
 ├── tsconfig.app.json
-
-├── tsconfig.json
+├── tsconfig.json ======> Typescript configuration file... Gives instructions to the typescript compiler
+├── .browserslistrc
+├── .editorconfig
+└── .gitignore ======> List the files you do not want Git To Track Here
 ```
 
 
@@ -144,6 +110,12 @@ ng serve
 ```bash
 ng generate component navbar
 ```
+
+### 2nd Way ofHow To Create A Component In Angular
+```bash
+ng g c navbar
+```
+
 
 ### Dependency Injection In Angular
 
